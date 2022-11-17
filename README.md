@@ -15,10 +15,10 @@
 
 * Any OS either be (windows, Linux, MacOS),  Git to clone the project, and IDE to edit the project.
 * follow these steps:
-  * mkdir calculator
-  * cd calculator
+  * mkdir delani-studio
+  * cd delani-studio
   * git clone https://github.com/gracegicheru/moringa-week3.git
-  * cd moringa-week2
+  * cd moringa-week3
   * open index.html on your browser
 
 ### Technologies used
