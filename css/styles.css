@@ -129,12 +129,12 @@ input[type=text],input[type=email],#comment{
 .form-control::-webkit-input-placeholder { 
   color: white; 
 }
-#MERGE1{
+#contactname{
   width: 30%;
   margin-left: 18%;
   margin-right: 30px;
 }
-#MERGE0{
+#contactemail{
   width: 30%;
 }
 #comment{
@@ -225,12 +225,12 @@ footer p{
     padding-bottom: 30px;
     margin-bottom: 20px;
   }
-  #MERGE0{
+  #contactemail{
     width: 84%;
     margin-left: 4%;
     padding-bottom: 10px;
   }
-  #MERGE1{
+  #contactname{
     width: 100%;
     margin-left: 4%;
     margin-bottom: 20px;

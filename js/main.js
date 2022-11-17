@@ -83,10 +83,11 @@ $(document).ready(function(){
   });
   $(document).ready(function(){
     $("form#contactform").submit(function(event){
-      var name = $("input#formname").val();
-      var email = $("input#formemail").val();
+      // event.preventDefault();
+      var name = $("input#contactname").val();
+      var email = $("input#contactemail").val();
       var message = $("textarea#comment").val();
-      if ($("input#formname").val() && $("input#formemail").val()){
+      if ($("input#contactname").val() && $("input#contactemail").val()){
         alert (name + ", we have received your message. Thank you for reaching out to us.");
       }
       else {
