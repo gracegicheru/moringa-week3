@@ -82,11 +82,11 @@ $(document).ready(function(){
     });
   });
   $(document).ready(function(){
-    $("form#form34A").submit(function(event){
-      var name = $("input#MERGE1").val();
-      var email = $("input#MERGE0").val();
+    $("form#contactform").submit(function(event){
+      var name = $("input#formname").val();
+      var email = $("input#formemail").val();
       var message = $("textarea#comment").val();
-      if ($("input#MERGE1").val() && $("input#MERGE0").val()){
+      if ($("input#formname").val() && $("input#formemail").val()){
         alert (name + ", we have received your message. Thank you for reaching out to us.");
       }
       else {
