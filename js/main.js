@@ -83,7 +83,6 @@ $(document).ready(function(){
   });
   $(document).ready(function(){
     $("form#contactform").submit(function(event){
-      // event.preventDefault();
       var name = $("input#contactname").val();
       var email = $("input#contactemail").val();
       var message = $("textarea#comment").val();
